@@ -1,5 +1,43 @@
-# next-js-11-registration-login-example
+# Formulério para o BOOK da UTFPR 2022
 
-Next.js 11 - User Registration and Login Example
+Formulário para coletar os dados dos alunos da UTFPR. Apresentando um preview da pagina do book, com sistema de autenticação de usuários.
 
-Documentation and live demo available at https://jasonwatmore.com/post/2021/08/19/next-js-11-user-registration-and-login-tutorial-with-example-app
+
+## Rodando localmente
+
+Clone o projeto mais recente
+
+```bash
+  git clone https://github.com/M4rcusVinicius/book-develop-tests
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd book-develop-tests
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+
+## Referência
+
+ - [Next js](https://nextjs.org/)
+ - [Styled Components](https://styled-components.com/)
+ - [Vercel](https://vercel.com)
+
+
+
+## Autores
+
+- [@M4rcusVinicius](https://github.com/M4rcusVinicius)
