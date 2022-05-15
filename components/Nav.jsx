@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useRouter } from 'next/router'
 import styled from "styled-components";
 
 import { Github } from "@styled-icons/boxicons-logos/Github";
@@ -10,7 +11,7 @@ import { userService } from "services";
 export { Nav };
 
 const Navbar = styled.div`
-  margin-right: 71vh;
+  margin-right: ${props => props.mg && '71vh'};
 `;
 
 const Links = styled.div`
@@ -30,6 +31,7 @@ const Link = styled.a`
 
 function Nav() {
   const [user, setUser] = useState(null);
+  const router = useRouter()
 
   useEffect(() => {
     const subscription = userService.user.subscribe((x) => setUser(x));
@@ -43,8 +45,10 @@ function Nav() {
   // only show nav when logged in
   if (!user) return null;
 
+  
+
   return (
-    <Navbar>
+    <Navbar mg={router.pathname === '/'}>
       <nav className='navbar navbar-expand navbar-dark bg-dark'>
         <div className='navbar-nav'>
           <NavLink href='/' exact className='nav-item nav-link'>
@@ -55,10 +59,10 @@ function Nav() {
           </a>
         </div>
         <Links>
-          <Link href='https://github.com/M4rcusVinicius/book-utfpr-s21/tree/master'>
+          <Link href='https://www.linkedin.com/in/m4rcusvinicius/'>
             <LinkedinSquare />
           </Link>
-          <Link href='https://github.com/M4rcusVinicius/book-utfpr-s21/tree/master'>
+          <Link href='https://github.com/M4rcusVinicius/'>
             <Github />
           </Link>
         </Links>
