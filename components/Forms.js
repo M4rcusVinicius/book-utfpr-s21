@@ -123,16 +123,16 @@ function Forms(props) {
         <div className='form-group'>
           <label>Última atualização registrada: {getUpdateDate(user.dateUpdated)}</label>
         </div>
-        <div className='row g-0 bg-light position-relative mt-5 mb-5 ml-2 mr-2'>
-          <div className='col-md-6 mb-md-0 p-md-4'>
-            <Image src='/code.png' alt='Imágem do código' layout="fill" />
+        <div className="row g-0 bg-light position-relative mt-5 mb-5 ml-2 mr-2">
+          <div className="col-md-6 mb-md-0 p-md-4">
+            <Image src="/code.png" alt="Imágem do código" layout="fill" />
           </div>
-          <div className='col-md-6 p-4 ps-md-0'>
-            <h5 className='mt-0'>Código Open-Source</h5>
+          <div className="col-md-6 p-4 ps-md-0">
+            <h5 className="mt-0">Código Open-Source</h5>
             <p>
-              Todo o código fonte da página está disponível no Github, acesse a aba "inssues" para reportar erros, baixar o código, ou adcionar novas funcionalidades. 
+              Todo o código fonte da página está disponível no Github, acesse a aba inssues para reportar erros, baixar o código, ou adcionar novas funcionalidades. 
             </p>
-            <a href='https://github.com/M4rcusVinicius/book-utfpr-s21/' className='stretched-link'>
+            <a href="https://github.com/M4rcusVinicius/book-utfpr-s21/" className="stretched-link">
               Acessar o código fonte
             </a>
           </div>
