@@ -1,7 +1,8 @@
 import { useState } from "react";
 import styled from "styled-components";
 
-/* import { Model } from './Model' */
+import { Model } from './Model'
+
 export { Preview };
 
 const Wrapper = styled.div`
@@ -55,7 +56,7 @@ function Preview({ user }) {
       </Button>
       <Wrapper display={display}>
         <PreviewContainer>
-          {/* <Model user={user} /> */}
+          <Model user={user} />
         </PreviewContainer>
       </Wrapper>
     </>
