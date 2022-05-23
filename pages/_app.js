@@ -9,12 +9,10 @@ import { Nav, Alert } from 'components';
 
 export default App;
 
-function App({ time, Component, pageProps }) {
+function App({ Component, pageProps }) {
     const router = useRouter();
     const [user, setUser] = useState(null);
     const [authorized, setAuthorized] = useState(false);
-
-    console.log('Tempo de cachê definido para um ano depois de: ', time, pageProps.time)
 
     useEffect(() => {
         // on initial load - run auth check 
@@ -77,7 +75,9 @@ export async function getServerSideProps({ req, res }) {
       'Cache-Control',
       'public, s-maxage=31536000, immutable'
     )
-  
+
+    console.log('Tempo de cachê definido para um ano depois de: ', new Date().toISOString())
+
     return {
       props: {
         time: new Date().toISOString(),
