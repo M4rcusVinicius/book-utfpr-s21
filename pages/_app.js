@@ -62,80 +62,80 @@ function App({ Component, pageProps }) {
 
       
       <main>
-        <section class="advice">
-            <h1 class="advice__title">Site under construction or maintenance </h1>
-            <p class="advice__description"><span> Building </span><span> not finished yet</span></p>
+        <section className="advice">
+            <h1 className="advice__title">Este site está em manutenção </h1>
+            <p className="advice__description"><span> Agora é só pelo canvas (Banco de dados gratuito é assim msm kkkk)</span></p>
         </section>
-        <section class="city-stuff">
-            <ul class="skyscrappers__list">
-            <li class="skyscrapper__item skyscrapper-1"></li>
-            <li class="skyscrapper__item skyscrapper-2"></li>
-            <li class="skyscrapper__item skyscrapper-3"></li>
-            <li class="skyscrapper__item skyscrapper-4"></li>
-            <li class="skyscrapper__item skyscrapper-5"></li>
+        <section className="city-stuff">
+            <ul className="skyscrappers__list">
+            <li className="skyscrapper__item skyscrapper-1"></li>
+            <li className="skyscrapper__item skyscrapper-2"></li>
+            <li className="skyscrapper__item skyscrapper-3"></li>
+            <li className="skyscrapper__item skyscrapper-4"></li>
+            <li className="skyscrapper__item skyscrapper-5"></li>
             </ul>
-            <ul class="tree__container">
-            <li class="tree__list">
-                <ul class="tree__item tree-1">
-                <li class="tree__trunk"></li>
-                <li class="tree__leaves"></li>
+            <ul className="tree__container">
+            <li className="tree__list">
+                <ul className="tree__item tree-1">
+                <li className="tree__trunk"></li>
+                <li className="tree__leaves"></li>
                 </ul>
-                <ul class="tree__item tree-2">
-                <li class="tree__trunk"></li>
-                <li class="tree__leaves"></li>
+                <ul className="tree__item tree-2">
+                <li className="tree__trunk"></li>
+                <li className="tree__leaves"></li>
                 </ul>
-                <ul class="tree__item tree-3">
-                <li class="tree__trunk"></li>
-                <li class="tree__leaves"></li>
+                <ul className="tree__item tree-3">
+                <li className="tree__trunk"></li>
+                <li className="tree__leaves"></li>
                 </ul>  
-                <ul class="tree__item tree-4">
-                <li class="tree__trunk"></li>
-                <li class="tree__leaves"></li>
+                <ul className="tree__item tree-4">
+                <li className="tree__trunk"></li>
+                <li className="tree__leaves"></li>
                 </ul>  
-                <ul class="tree__item tree-5">
-                <li class="tree__trunk"></li>
-                <li class="tree__leaves"></li>
+                <ul className="tree__item tree-5">
+                <li className="tree__trunk"></li>
+                <li className="tree__leaves"></li>
                 </ul>  
-                <ul class="tree__item tree-6">
-                <li class="tree__trunk"></li>
-                <li class="tree__leaves"></li>
+                <ul className="tree__item tree-6">
+                <li className="tree__trunk"></li>
+                <li className="tree__leaves"></li>
                 </ul>  
-                <ul class="tree__item tree-7">
-                <li class="tree__trunk"></li>
-                <li class="tree__leaves"></li>
+                <ul className="tree__item tree-7">
+                <li className="tree__trunk"></li>
+                <li className="tree__leaves"></li>
                 </ul>  
-                <ul class="tree__item tree-8">
-                <li class="tree__trunk"></li>
-                <li class="tree__leaves"></li>
+                <ul className="tree__item tree-8">
+                <li className="tree__trunk"></li>
+                <li className="tree__leaves"></li>
                 </ul>  
             </li>
             </ul>
-            <ul class="crane__list crane-1">
-            <li class="crane__item crane-cable crane-cable-1"></li>
-            <li class="crane__item crane-cable crane-cable-2"></li>
-            <li class="crane__item crane-cable crane-cable-3"></li>
-            <li class="crane__item crane-stand"></li>
-            <li class="crane__item crane-weight"></li>
-            <li class="crane__item crane-cabin"></li>
-            <li class="crane__item crane-arm"></li>
+            <ul className="crane__list crane-1">
+            <li className="crane__item crane-cable crane-cable-1"></li>
+            <li className="crane__item crane-cable crane-cable-2"></li>
+            <li className="crane__item crane-cable crane-cable-3"></li>
+            <li className="crane__item crane-stand"></li>
+            <li className="crane__item crane-weight"></li>
+            <li className="crane__item crane-cabin"></li>
+            <li className="crane__item crane-arm"></li>
             </ul>
-            <ul class="crane__list crane-2">
-            <li class="crane__item crane-cable crane-cable-1"></li>
-            <li class="crane__item crane-cable crane-cable-2"></li>
-            <li class="crane__item crane-cable crane-cable-3"></li>
-            <li class="crane__item crane-stand"></li>
-            <li class="crane__item crane-weight"></li>
-            <li class="crane__item crane-cabin"></li>
-            <li class="crane__item crane-arm"></li>
+            <ul className="crane__list crane-2">
+            <li className="crane__item crane-cable crane-cable-1"></li>
+            <li className="crane__item crane-cable crane-cable-2"></li>
+            <li className="crane__item crane-cable crane-cable-3"></li>
+            <li className="crane__item crane-stand"></li>
+            <li className="crane__item crane-weight"></li>
+            <li className="crane__item crane-cabin"></li>
+            <li className="crane__item crane-arm"></li>
             </ul>
-            <ul class="crane__list crane-3">
-            <li class="crane__item crane-cable crane-cable-1"></li>
-            <li class="crane__item crane-cable crane-cable-2"></li>
-            <li class="crane__item crane-cable crane-cable-3"></li>
-            <li class="crane__item crane-stand"></li>
-            <li class="crane__item crane-weight"></li>
-            <li class="crane__item crane-cabin"></li>
-            <li class="crane__item crane-arm"></li>
+            <ul className="crane__list crane-3">
+            <li className="crane__item crane-cable crane-cable-1"></li>
+            <li className="crane__item crane-cable crane-cable-2"></li>
+            <li className="crane__item crane-cable crane-cable-3"></li>
+            <li className="crane__item crane-stand"></li>
+            <li className="crane__item crane-weight"></li>
+            <li className="crane__item crane-cabin"></li>
+            <li className="crane__item crane-arm"></li>
             </ul>
         </section>
         </main>
