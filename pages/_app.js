@@ -14,7 +14,7 @@ function App({ time, Component, pageProps }) {
     const [user, setUser] = useState(null);
     const [authorized, setAuthorized] = useState(false);
 
-    console.log('Tempo de cachê definido para um ano depois de: ', time)
+    console.log('Tempo de cachê definido para um ano depois de: ', time, pageProps.time)
 
     useEffect(() => {
         // on initial load - run auth check 
