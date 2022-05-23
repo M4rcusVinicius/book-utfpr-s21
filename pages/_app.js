@@ -69,18 +69,3 @@ function App({ Component, pageProps }) {
         </>
     );
 }
-
-export async function getServerSideProps({ req, res }) {
-    res.setHeader(
-      'Cache-Control',
-      'public, s-maxage=31536000, immutable'
-    )
-
-    console.log('Tempo de cachê definido para um ano depois de: ', new Date().toISOString())
-
-    return {
-      props: {
-        time: new Date().toISOString(),
-      },
-    }
-  }
